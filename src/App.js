@@ -9,7 +9,8 @@ function App() {
     <div className="App">
         <img className='logo' src={text_logo} />
         <p className='header'> We're doing something special for you.</p>
-        <p className='sub'> Our development team has started webpage process until May 13. <br /> We'll together soon, stay tuned!</p>
+        <p className='sub'> Our development team has started webpage process. <br /> 
+        We can't wait for you to see what we're doing. Come back on May 13! We'll together soon, stay tuned!</p>
     </div>
   );
 }
