@@ -11,7 +11,7 @@
 }
 
 .logo {
-  margin-top: 10em;
+  margin-top: 10vh;
   margin-bottom: 10px;
   width: 200px;
 }
@@ -28,4 +28,21 @@
 .sub {
   font-size: 20px;
   margin-bottom: 3em;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 20vh;
+  }
+  .header {
+    width: 40vh;
+    margin: auto;
+  }
+
+  .sub {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 40vh;
+    margin: auto;
+  }
 }
